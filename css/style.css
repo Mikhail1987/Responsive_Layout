@@ -1,0 +1,57 @@
+
+* {
+
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p {
+	font-size: 0.95em;
+	margin-bottom: 1.8em;
+}
+
+span {
+	font-weight: 600;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.portfolio_img {
+	width: 260px;
+
+}
+
+.name {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.main-nav {
+	margin-top: 5px;
+}
+
+.name,
+.main-nav {
+	display: block;
+    text-align: center;
+	padding: 10px 15px;
+
+}
+
+.main-nav a{
+	font-size: .95em;
+	color: #3acec2;
+    text-transform: uppercase;
+
+}
