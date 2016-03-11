@@ -8,15 +8,26 @@ body {
 	margin: 0;
   	padding: 0;
   	text-align: center;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'batman_forever';
 	line-height: 1.6;
 	color: #3a3a3a;
 	background-color: #f0f1f2;
 }
 
+@font-face {
+    font-family: batman_forever;
+    src: url(batman_forever/batmfa.ttf);
+}
+
+@font-face {
+    font-family: batman_forever_o;
+    src: url(batman_forever/batmfo.ttf);
+}
+
 p {
 	font-size: 0.95em;
 	margin-bottom: 1.8em;
+	padding: 0 5px;
 }
 
 span {
@@ -29,6 +40,16 @@ img {
 
 a {
 	text-decoration: none;
+	color: #3a3a3a;
+}
+
+a:hover {
+	color: black;
+	font-family: 'batman_forever_o';
+}
+
+.gallery {
+	padding: 0;
 }
 
 .gallery li {
@@ -47,29 +68,19 @@ a {
 	list-style-type: none;
 	margin: 0 auto;
   	padding: 0;
+  	text-align: center;
+  	
 }
 
 .main-nav li {
-	font-weight: bold;
+	font-weight: 900;
 	background-color: white;
 	padding: 0 3px; 
-	margin-bottom: 5px;
-	width: 60%;
-
-}
-
-.name {
-    font-size: 1.25em;
-    margin: 0;
-}
+	margin: 5px auto;
+	width: 96%;
+	text-align: center;
+	border-radius: 5px;
 	
-
-.name,
-.main-nav {
-	display: block;
-    text-align: center;
-	padding: 10px 15px;
-
 }
 
 .main-nav a{
@@ -80,8 +91,31 @@ a {
 }
 
 .main-nav a:visited {
-	color:black;
+	color: #3a3a3a;
 }
+
+.main-nav a:hover {
+	color: black;
+	font-family: 'batman_forever_o';
+}
+
+
+#name {
+    font-size: 1.25em;
+    margin: 0;
+    font-size: 1.6em;
+    
+}
+	
+
+#name,
+.main-nav {
+	display: block;
+    text-align: center;
+	padding: 10px 15px;
+	text-align: center;
+}
+
 
 .content {
 	background-color: white;
@@ -104,22 +138,47 @@ a {
 	margin: 0;
 	padding-left: .5em;
 	display: block;
-	width: 50%;
+	
 }
+
+footer p {
+	margin-bottom: 5px;
+}
+
 
 .back {
 	float: right;
 	margin: 0;
+	padding-top: 20px;
 	padding-right: .5em;
 	display: block;
 	width:50%;
+
+}
+
+.back a:visited {
+	color: #3a3a3a;
+}
+
+.back a:hover {
+	color: black;
+	font-family: 'batman_forever_o';	
 }
 
 .bottom-nav{
 	list-style-type: none;
 	display: block;
+	padding: 0;
+
 }
 
 .bottom-nav li:nth-child(2n){
 	border-bottom: rgba(170, 170, 170, 5);
 }
+
+
+.clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
