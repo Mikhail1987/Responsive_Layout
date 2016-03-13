@@ -228,6 +228,29 @@ footer p {
 	padding-bottom: 10px;
 }
 
+/*------Tablet Layout-----------*/
+
+@media (min-width: 768px) {
+
+	.portfolio_img {
+		max-width: 30%;
+		float: right;
+		padding-right: 20px;
+		padding-left: 20px;
+		display: inline-block;
+	}
+
+	header p {
+		display: inline-block;
+	}
+
+	.banner {
+		height: 250px;
+	}
+
+}
+
+/* ---- Float clearfix ---- */
 .clearfix::after {
         content: "";
         display: table;
