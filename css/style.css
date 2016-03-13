@@ -26,12 +26,12 @@ body {
 }
 
 p {
-	font-size: 0.7em;
+	font-size: 0.6em;
 	padding: 0 5px;
 }
 
 h3 {
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 
 span {
@@ -47,6 +47,10 @@ a {
 	color: #3a3a3a;
 }
 
+header p {
+	margin-bottom: 20px;
+}
+
 a:hover {
 	color: black;
 	font-family: 'batman_forever_o';
@@ -58,12 +62,20 @@ a:hover {
 
 .gallery li {
 		list-style-type: none;
-		padding-top: 10px;
+		padding-top: 20px;
+		padding-bottom: 10px;
 }
 
 .portfolio_img {
 	width: 50%;
 	border-radius: 5px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#portfolio {
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
 .gallery img {
@@ -81,8 +93,8 @@ a:hover {
 .main-nav li {
 	font-weight: 900;
 	background-color: white;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 	margin: 5px auto;
 	width: 98%;
 	text-align: center;
@@ -91,10 +103,10 @@ a:hover {
 }
 
 .main-nav a{
-	font-size: .95em;
+	font-size: .75em;
 	color: black;
     text-transform: uppercase;
-
+    display: block;
 }
 
 .main-nav a:visited {
@@ -108,7 +120,7 @@ a:hover {
 
 
 #name {
-    font-size: 1.1em;
+    font-size: 0.9em;
     margin: 0;   
     margin-top: 20px;
 }
@@ -133,7 +145,7 @@ a:hover {
 .email {
 	color: #3a3a3a;
 	padding-bottom: 0.25em;
-	font-size: 0.7em;
+	font-size: 0.6em;
 }
 
 .phone,
@@ -160,7 +172,7 @@ footer p {
 	padding-right: .5em;
 	display: block;
 	width:50%;
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 
 .back a:visited {
