@@ -2,6 +2,7 @@
 * {
 
 	box-sizing: border-box;
+
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 	font-family: 'batman_forever';
 	line-height: 1.6;
 	color: #3a3a3a;
-	background-color: #f0f1f2;
+	background-color: #f7f7f7;
 }
 
 @font-face {
@@ -25,9 +26,12 @@ body {
 }
 
 p {
-	font-size: 0.95em;
-	margin-bottom: 1.8em;
+	font-size: 0.7em;
 	padding: 0 5px;
+}
+
+h3 {
+	font-size: 0.9em;
 }
 
 span {
@@ -53,11 +57,13 @@ a:hover {
 }
 
 .gallery li {
-	list-style-type: none;
+		list-style-type: none;
+		padding-top: 10px;
 }
 
 .portfolio_img {
-	width: 60%;
+	width: 50%;
+	border-radius: 5px;
 }
 
 .gallery img {
@@ -75,9 +81,10 @@ a:hover {
 .main-nav li {
 	font-weight: 900;
 	background-color: white;
-	padding: 0 3px; 
+	padding-top: 5px;
+	padding-bottom: 5px;
 	margin: 5px auto;
-	width: 96%;
+	width: 98%;
 	text-align: center;
 	border-radius: 5px;
 	
@@ -101,10 +108,9 @@ a:hover {
 
 
 #name {
-    font-size: 1.25em;
-    margin: 0;
-    font-size: 1.6em;
-    
+    font-size: 1.1em;
+    margin: 0;   
+    margin-top: 20px;
 }
 	
 
@@ -118,6 +124,8 @@ a:hover {
 
 
 .content {
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: white;
 }
 
@@ -125,7 +133,7 @@ a:hover {
 .email {
 	color: #3a3a3a;
 	padding-bottom: 0.25em;
-
+	font-size: 0.7em;
 }
 
 .phone,
@@ -145,7 +153,6 @@ footer p {
 	margin-bottom: 5px;
 }
 
-
 .back {
 	float: right;
 	margin: 0;
@@ -153,7 +160,7 @@ footer p {
 	padding-right: .5em;
 	display: block;
 	width:50%;
-
+	font-size: 0.8em;
 }
 
 .back a:visited {
@@ -172,10 +179,20 @@ footer p {
 
 }
 
-.bottom-nav li:nth-child(2n){
+.bottom-nav li:nth-child(2n) {
+	padding-bottom: 40px;
 	border-bottom: rgba(170, 170, 170, 5);
 }
 
+footer h3 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+footer p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
 .clearfix::after {
         content: "";
