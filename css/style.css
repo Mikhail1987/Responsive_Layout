@@ -232,21 +232,25 @@ footer p {
 
 @media (min-width: 768px) {
 
+	.banner {
+		display: block;
+				
+	}
+
 	.portfolio_img {
 		max-width: 30%;
 		float: right;
-		padding-right: 20px;
-		padding-left: 20px;
-		display: inline-block;
+		margin: 0 0 10px 10px;
+				
 	}
 
 	header p {
-		display: inline-block;
+		max-width: 60%;
+		
 	}
 
-	.banner {
-		height: 250px;
-	}
+	
+
 
 }
 
