@@ -240,12 +240,13 @@ footer p {
 	.portfolio_img {
 		max-width: 30%;
 		float: right;
-		margin: 0 0 10px 10px;
+		margin: 2em;
 				
 	}
 
 	header p {
-		max-width: 60%;
+		max-width: 70%;
+		margin-left: 2em;
 		
 	}
 
@@ -260,3 +261,11 @@ footer p {
         display: table;
         clear: both;
     }
+
+ .clear {
+ 	clear: right;
+ }   
+
+ .clear_left {
+ 	clear: left;
+ }
