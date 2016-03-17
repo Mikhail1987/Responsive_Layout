@@ -90,7 +90,6 @@ a:hover {
 }
 
 .main-nav li {
-	font-weight: 900;
 	background-color: white;
 	padding-top: 8px;
 	padding-bottom: 8px;
@@ -232,6 +231,25 @@ footer p {
 
 @media (min-width: 768px) {
 
+	/*----------Navigation------------*/
+	
+	nav {
+
+	}
+
+	.main-nav {
+       
+       display: inline;
+    }
+
+	.main-nav li {
+	    
+	    width: 90px;
+	}
+
+
+
+	/*----------Banner------------*/
 	.banner {
 		display: block;
 				
@@ -249,10 +267,28 @@ footer p {
 		margin-left: 2em;
 		
 	}
+	/*----------Content Area------------*/
+	.col_1 {
+		float: left;
+		width: 50%;
+	}
+
+	.col_2 {
+		float: right;
+		width: 50%;
+	}
+
+	.col_3 {
+		
+	}
+
+	.span_in{
+		display: inline;
+		width: 50%;
+		float: left;
+	}
 
 	
-
-
 }
 
 /* ---- Float clearfix ---- */
@@ -268,4 +304,7 @@ footer p {
 
  .clear_left {
  	clear: left;
+ }
+ .clear_both {
+ 	clear: both;
  }
