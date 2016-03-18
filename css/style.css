@@ -210,7 +210,10 @@ footer p {
 	list-style-type: none;
 	display: block;
 	padding: 0;
-
+	border-bottom: 1px solid;
+	border-color: rgba(130,130,130, 0.2);
+	width: 98%;
+	margin: 0 auto;
 }
 
 .bottom-nav li:nth-child(2n) {
@@ -226,6 +229,13 @@ footer h3 {
 footer p {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	}
+
+#bottom_name {
+	display: none;
+}
+.sec-foot {
+	display: none;
 }
 
 /*------Tablet Layout-----------*/
@@ -305,6 +315,8 @@ footer p {
 	#bottom_name{
 		font-size: 0.7em;
 		float: left;
+		margin-top: 20px;
+		margin-left: 20px;
 	}
 
 	.sec-foot {
@@ -319,8 +331,8 @@ footer p {
 	}
 
 	.bottom-nav {
-		border-bottom: 2px solid;
-		border-color: rgba(128,128,128, 0.2);
+		border-bottom: 1px solid;
+		border-color: rgba(130,130,130, 0.2);
 		width: 98%;
 		margin: 0 auto;
 	}
