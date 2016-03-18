@@ -121,6 +121,7 @@ a:hover {
     font-size: 0.9em;
     margin: 0;   
     margin-top: 20px;
+
 }
 	
 
@@ -239,12 +240,14 @@ footer p {
 
 	.main-nav {
        
-       display: inline;
+       display: flex;
+       justify-content: center;
     }
 
 	.main-nav li {
-	    
+	    margin: 0 10px;
 	    width: 90px;
+	    background-color: #f7f7f7;
 	}
 
 
@@ -258,7 +261,7 @@ footer p {
 	.portfolio_img {
 		max-width: 30%;
 		float: right;
-		margin: 2em;
+		margin: 0 2em 2em;
 				
 	}
 
@@ -271,25 +274,58 @@ footer p {
 	.col_1 {
 		float: left;
 		width: 50%;
+		background-color: white;
 	}
 
 	.col_2 {
 		float: right;
 		width: 50%;
+		background-color: white;
 	}
 
 	.col_3 {
-		
+		background-color: white;
 	}
 
 	.span_in{
 		display: inline;
 		width: 50%;
 		float: left;
+		background-color: white;
+		margin-bottom: 40px;
+		padding-bottom: 20px;
 	}
 
-	
-}
+	/*----------Footer------------*/
+
+	.back {
+		display: none;
+	}
+
+	#bottom_name{
+		font-size: 0.7em;
+		float: left;
+	}
+
+	.sec-foot {
+		font-size: 0.7em;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.sec-foot li {
+		display: inline-block;
+		margin: 0.67em 15px;
+	}
+
+	.bottom-nav {
+		border-bottom: 2px solid;
+		border-color: rgba(128,128,128, 0.2);
+		width: 98%;
+		margin: 0 auto;
+	}
+
+	}
 
 /* ---- Float clearfix ---- */
 .clearfix::after {
