@@ -244,8 +244,8 @@ footer p {
 
 	/*----------Navigation------------*/
 	
-	nav {
-
+	.banner p {
+		text-align: left;
 	}
 
 	.main-nav {
@@ -337,7 +337,50 @@ footer p {
 		margin: 0 auto;
 	}
 
+	.content {
+		overflow: hidden;
 	}
+
+	}
+
+
+/* ---- Desktop layout---- */
+@media (min-width: 1024px){
+
+	#name {
+		float: left;
+		margin-top: 10px;
+		margin-left: 0.8em;
+	}
+
+	.main-nav {
+       
+       display: flex;
+       justify-content: flex-end;
+    }
+	.span_in{
+		display: block;
+		width: 100%;
+		float: none;
+		background-color: white;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+
+	.col_1,
+	.col_2,
+	.col_3 {
+		float: left;
+		width: 33%;
+	}
+
+	
+
+	footer {
+		padding-top: 20px;
+	}
+
+}
 
 /* ---- Float clearfix ---- */
 .clearfix::after {
